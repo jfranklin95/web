@@ -1,1 +1,49 @@
--- 
+.title
+{
+  border-bottom:dotted;
+  width:30%;
+}
+
+.button
+{
+  float:left;
+  width:33.33;
+  margin-left:1%;
+  text-align:center;
+  list-style-type: none;
+}
+
+#breaker
+{
+  clear:both;
+}
+.column
+{
+  background:red;
+  float:left;
+  width:31.33%;
+  height:300px;
+  margin-left:1%;
+  margin-bottom:1%;
+}
+
+.row1:after
+{
+  clear:both;
+  content:"";
+  display:table:
+  clear:both;
+}
+
+.row2:after
+{
+  content:"";
+  display:table:
+  clear:both;
+}
+
+footer
+{
+  clear:both;
+  text-align:center;
+}
