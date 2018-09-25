@@ -1,14 +1,22 @@
 .title
 {
+  height:50px;
 }
 
-.menu
+.border
 {
+  width:30%;
+  border-bottom:solid;
+  border-width:1px;
+  margin-left:33.33%;
+  margin-bottom:10px;
 }
 .button
 {
-  background:red;
+  border:solid;
+  border-width:.1px;
   width:31.33%;
+  height:40px;
   float:left;
   margin-left:1%;
   margin-bottom:5px;
@@ -30,6 +38,15 @@
   overflow:hidden;
 }
 
+.about
+{
+  margin-left:23.33%;
+  border:solid;
+  width:50%;
+  height:500px;
+  margin-top:2%;
+}
+
 .row1:after
 {
   clear:both;
@@ -44,9 +61,16 @@
   display:table:
   clear:both;
 }
+.row3:after
+{
+  content:"";
+  display:table:
+  clear:both;
+}
 
 footer
 {
   clear:both;
   text-align:center;
 }
+
