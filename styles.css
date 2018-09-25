@@ -1,16 +1,19 @@
 .title
 {
-  border-bottom:dotted;
-  width:30%;
 }
 
+.menu
+{
+}
 .button
 {
+  background:red;
+  width:31.33%;
   float:left;
-  width:33.33;
   margin-left:1%;
+  margin-bottom:5px;
+  margin-top:5px;
   text-align:center;
-  list-style-type: none;
 }
 
 #breaker
@@ -19,12 +22,12 @@
 }
 .column
 {
-  background:red;
   float:left;
   width:31.33%;
-  height:300px;
+  height:350px;
   margin-left:1%;
   margin-bottom:1%;
+  overflow:hidden;
 }
 
 .row1:after
