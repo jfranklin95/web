@@ -1,6 +1,7 @@
 #myVideo {
   position: fixed;
   right: -20;
+  left: 20;
   bottom: 0;
   min-width: 100%; 
   min-height: 100%;
